@@ -1,0 +1,23 @@
+server:
+  port: 8761
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+  instance:
+    lease-renewal-interval-in-seconds: 5
+
+logging:
+  level:
+    com:
+      netflix:
+        eureka: OFF
+        discovery: OFF
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: alan
+    password: cifnews-train
