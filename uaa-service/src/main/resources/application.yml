@@ -1,5 +1,7 @@
 server:
   port: 8081
+  context-path: /uaa
+  use-forward-headers: false
 
 spring:
   application:
@@ -11,9 +13,14 @@ spring:
     password: alan
 
 security:
+  basic:
+    enabled: false
   user:
-    name: root
     password: alan
+  ignored: /css/**,/js/**,/favicon.ico,/webjars/**
+
+logging:
+  level.org.springframework.security: DEBUG
 
 eureka:
   instance:

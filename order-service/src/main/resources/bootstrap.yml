@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: order-service
+  cloud:
+     config:
+        discovery:
+          service-id: config-server
+          enabled: true
+        fail-fast: true
+        profile: dev
+        name: order-service
+
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}
+  client:
+    service-url:
+      defaultZone: http://alan:cifnews-train@localhost:8761/eureka
+server:
+  port: 8080
+
+

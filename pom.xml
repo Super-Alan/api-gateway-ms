@@ -12,6 +12,7 @@
         <module>order-service</module>
         <module>service-registry</module>
         <module>uaa-service</module>
+        <module>product-service</module>
     </modules>
 
     <parent>
@@ -24,7 +25,25 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <docker.image.prefix>cifnews</docker.image.prefix>
+        <springfox.version>2.7.0</springfox.version>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${springfox.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${springfox.version}</version>
+        </dependency>
+    </dependencies>
 
     <dependencyManagement>
         <dependencies>
@@ -35,7 +54,9 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
         </dependencies>
+
     </dependencyManagement>
 
 

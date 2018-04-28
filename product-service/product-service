@@ -1,0 +1,105 @@
+2018-04-27 16:43:27.641 ERROR 1919 --- [main] o.s.b.l.LoggingApplicationListener       : Cannot set level: hibernate=INFO for 'org'
+2018-04-27 16:43:27.688  INFO 1919 --- [main] c.c.train.ProductServiceApplication      : No active profile set, falling back to default profiles: default
+2018-04-27 16:43:27.729  INFO 1919 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@57fffcd7: startup date [Fri Apr 27 16:43:27 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@aec6354
+2018-04-27 16:43:29.569  INFO 1919 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2db613b2-b125-3bc7-b0bf-fa3382151c57
+2018-04-27 16:43:29.625  INFO 1919 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-27 16:43:29.892  INFO 1919 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$284a3ea0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 16:43:29.976  INFO 1919 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4464419d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 16:43:30.605  INFO 1919 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8082 (http)
+2018-04-27 16:43:30.686  INFO 1919 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-27 16:43:30.686  INFO 1919 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-27 16:43:31.031  INFO 1919 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-27 16:43:31.033  INFO 1919 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3304 ms
+2018-04-27 16:43:31.362  INFO 1919 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-27 16:43:31.376  INFO 1919 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-27 16:43:31.377  INFO 1919 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-27 16:43:31.377  INFO 1919 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-27 16:43:31.378  INFO 1919 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-27 16:43:39.132  INFO 1919 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-27 16:43:39.165  INFO 1919 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-27 16:43:39.439  INFO 1919 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-04-27 16:43:39.445  INFO 1919 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-04-27 16:43:39.449  INFO 1919 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-04-27 16:43:39.631  INFO 1919 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-27 16:43:40.224  INFO 1919 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-27 16:43:41.401  INFO 1919 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-27 16:43:42.206  WARN 1919 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-04-27 16:43:42.207  INFO 1919 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-27 16:43:42.222  WARN 1919 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-04-27 16:43:42.223  INFO 1919 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-27 16:43:42.734  INFO 1919 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@57fffcd7: startup date [Fri Apr 27 16:43:27 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@aec6354
+2018-04-27 16:43:42.881  INFO 1919 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[],methods=[GET]}" onto public java.util.List<com.cifnews.train.dto.ProductDto> com.cifnews.train.controller.ProductController.getAllProducts(org.springframework.data.domain.Pageable)
+2018-04-27 16:43:42.883  INFO 1919 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{id}],methods=[GET]}" onto public com.cifnews.train.dto.ProductDto com.cifnews.train.controller.ProductController.getProductById(java.lang.Integer) throws java.lang.Exception
+2018-04-27 16:43:42.884  INFO 1919 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reduce/{id}],methods=[PUT]}" onto public org.springframework.http.HttpEntity com.cifnews.train.controller.ProductController.reduceInventoryById(java.lang.Integer,java.lang.Integer) throws java.lang.Exception
+2018-04-27 16:43:42.888  INFO 1919 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-27 16:43:42.888  INFO 1919 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-27 16:43:42.930  INFO 1919 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Mapped URL path [/products] onto handler '/products'
+2018-04-27 16:43:42.955  INFO 1919 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 16:43:42.955  INFO 1919 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 16:43:42.990  INFO 1919 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in exceptionAdvice
+2018-04-27 16:43:43.038  INFO 1919 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 16:43:44.092  WARN 1919 --- [main] arterDeprecationWarningAutoConfiguration : spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2018-04-27 16:43:44.224  INFO 1919 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-27 16:43:44.243  INFO 1919 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-04-27 16:43:44.244  INFO 1919 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-04-27 16:43:44.246  INFO 1919 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-04-27 16:43:44.250  INFO 1919 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-04-27 16:43:44.312  INFO 1919 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-04-27 16:43:44.332  INFO 1919 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=57fffcd7,type=ConfigurationPropertiesRebinder]
+2018-04-27 16:43:44.354  INFO 1919 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-04-27 16:43:44.368  INFO 1919 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-04-27 16:43:44.448  INFO 1919 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-04-27 16:43:44.599  INFO 1919 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-04-27 16:43:44.599  INFO 1919 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-04-27 16:43:44.889  INFO 1919 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-04-27 16:43:44.890  INFO 1919 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-04-27 16:43:45.245  INFO 1919 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-27 16:43:45.291  INFO 1919 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-04-27 16:43:45.292  INFO 1919 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-04-27 16:43:45.292  INFO 1919 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-04-27 16:43:45.292  INFO 1919 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-04-27 16:43:45.293  INFO 1919 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-04-27 16:43:45.294  INFO 1919 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-04-27 16:43:45.294  INFO 1919 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-04-27 16:43:45.557  INFO 1919 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-04-27 16:43:45.559  INFO 1919 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-04-27 16:43:45.562  INFO 1919 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-04-27 16:43:45.566  INFO 1919 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1524818625566 with initial instances count: 0
+2018-04-27 16:43:45.575  INFO 1919 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application product-service with eureka with status UP
+2018-04-27 16:43:45.577  INFO 1919 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1524818625577, current=UP, previous=STARTING]
+2018-04-27 16:43:45.579  INFO 1919 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082: registering service...
+2018-04-27 16:43:45.692  INFO 1919 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - registration status: 204
+2018-04-27 16:43:45.703  INFO 1919 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8082 (http)
+2018-04-27 16:43:45.706  INFO 1919 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2018-04-27 16:43:45.719  INFO 1919 --- [main] c.c.train.ProductServiceApplication      : Started ProductServiceApplication in 41.331 seconds (JVM running for 42.824)
+2018-04-27 16:44:15.564  INFO 1919 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-04-27 16:44:15.566  INFO 1919 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-04-27 16:44:15.566  INFO 1919 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-04-27 16:44:15.566  INFO 1919 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-04-27 16:44:15.567  INFO 1919 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-04-27 16:44:15.567  INFO 1919 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2018-04-27 16:44:15.567  INFO 1919 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-04-27 16:44:15.705  INFO 1919 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-04-27 16:48:45.313  INFO 1919 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-27 16:53:45.333  INFO 1919 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-27 16:58:45.346  INFO 1919 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-27 16:59:11.352  INFO 1919 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-27 16:59:11.353  INFO 1919 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-27 16:59:11.443  INFO 1919 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 89 ms
+2018-04-27 16:59:12.344  INFO 1919 --- [http-nio-8082-exec-1] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-27 17:03:45.362  INFO 1919 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-27 17:05:57.095  INFO 1919 --- [Thread-7] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@57fffcd7: startup date [Fri Apr 27 16:43:27 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@aec6354
+2018-04-27 17:05:57.099  INFO 1919 --- [Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application product-service with eureka with status DOWN
+2018-04-27 17:05:57.100  WARN 1919 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1524819957100, current=DOWN, previous=UP]
+2018-04-27 17:05:57.101  INFO 1919 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082: registering service...
+2018-04-27 17:05:57.114  INFO 1919 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - registration status: 204
+2018-04-27 17:05:57.116  INFO 1919 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-04-27 17:05:57.119  INFO 1919 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-27 17:05:57.120  INFO 1919 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-04-27 17:05:57.122  INFO 1919 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-04-27 17:05:57.123  INFO 1919 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2018-04-27 17:05:57.134  INFO 1919 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - deregister  status: 200
+2018-04-27 17:05:57.157  INFO 1919 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-04-27 17:05:57.170  INFO 1919 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

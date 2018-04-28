@@ -1,0 +1,813 @@
+2018-04-27 17:09:02.661 ERROR 1959 --- [main] o.s.b.l.LoggingApplicationListener       : Cannot set level: hibernate=INFO for 'org'
+2018-04-27 17:09:02.682  INFO 1959 --- [main] c.c.train.ProductServiceApplication      : No active profile set, falling back to default profiles: default
+2018-04-27 17:09:02.708  INFO 1959 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e9803c2: startup date [Fri Apr 27 17:09:02 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7aaca91a
+2018-04-27 17:09:03.971  INFO 1959 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2db613b2-b125-3bc7-b0bf-fa3382151c57
+2018-04-27 17:09:04.021  INFO 1959 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-27 17:09:04.257  INFO 1959 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$578c281f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 17:09:04.357  INFO 1959 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$73a62b1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 17:09:04.954  INFO 1959 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8082 (http)
+2018-04-27 17:09:05.014  INFO 1959 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-27 17:09:05.014  INFO 1959 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-27 17:09:05.243  INFO 1959 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-27 17:09:05.244  INFO 1959 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2536 ms
+2018-04-27 17:09:05.516  INFO 1959 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-27 17:09:05.526  INFO 1959 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-27 17:09:05.527  INFO 1959 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-27 17:09:05.527  INFO 1959 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-27 17:09:05.527  INFO 1959 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-27 17:09:12.885  INFO 1959 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-27 17:09:12.936  INFO 1959 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-27 17:09:13.136  INFO 1959 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-04-27 17:09:13.138  INFO 1959 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-04-27 17:09:13.140  INFO 1959 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-04-27 17:09:13.255  INFO 1959 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-27 17:09:13.527  INFO 1959 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-27 17:09:14.499  INFO 1959 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-27 17:09:15.519  WARN 1959 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-04-27 17:09:15.520  INFO 1959 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-27 17:09:15.541  WARN 1959 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-04-27 17:09:15.542  INFO 1959 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-27 17:09:16.112  INFO 1959 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e9803c2: startup date [Fri Apr 27 17:09:02 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7aaca91a
+2018-04-27 17:09:16.352  INFO 1959 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[],methods=[GET]}" onto public java.util.List<com.cifnews.train.dto.ProductDto> com.cifnews.train.controller.ProductController.getAllProducts(org.springframework.data.domain.Pageable)
+2018-04-27 17:09:16.353  INFO 1959 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{id}],methods=[GET]}" onto public com.cifnews.train.dto.ProductDto com.cifnews.train.controller.ProductController.getProductById(java.lang.Integer) throws java.lang.Exception
+2018-04-27 17:09:16.353  INFO 1959 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reduce/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity com.cifnews.train.controller.ProductController.reduceInventoryById(java.lang.Integer,java.lang.Integer) throws java.lang.Exception
+2018-04-27 17:09:16.357  INFO 1959 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-27 17:09:16.357  INFO 1959 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-27 17:09:16.415  INFO 1959 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Mapped URL path [/products] onto handler '/products'
+2018-04-27 17:09:16.440  INFO 1959 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 17:09:16.440  INFO 1959 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 17:09:16.476  INFO 1959 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in exceptionAdvice
+2018-04-27 17:09:16.532  INFO 1959 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 17:09:17.653  WARN 1959 --- [main] arterDeprecationWarningAutoConfiguration : spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2018-04-27 17:09:17.861  INFO 1959 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-27 17:09:17.878  INFO 1959 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-04-27 17:09:17.880  INFO 1959 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-04-27 17:09:17.881  INFO 1959 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-04-27 17:09:17.885  INFO 1959 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-04-27 17:09:17.918  INFO 1959 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-04-27 17:09:17.939  INFO 1959 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=3e9803c2,type=ConfigurationPropertiesRebinder]
+2018-04-27 17:09:17.968  INFO 1959 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-04-27 17:09:17.982  INFO 1959 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-04-27 17:09:18.095  INFO 1959 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-04-27 17:09:18.301  INFO 1959 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-04-27 17:09:18.302  INFO 1959 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-04-27 17:09:18.720  INFO 1959 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-04-27 17:09:18.721  INFO 1959 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-04-27 17:09:19.366  INFO 1959 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-27 17:09:19.429  INFO 1959 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-04-27 17:09:19.430  INFO 1959 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-04-27 17:09:19.430  INFO 1959 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-04-27 17:09:19.430  INFO 1959 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-04-27 17:09:19.430  INFO 1959 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-04-27 17:09:19.430  INFO 1959 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-04-27 17:09:19.430  INFO 1959 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-04-27 17:09:19.941  INFO 1959 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-04-27 17:09:19.944  INFO 1959 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-04-27 17:09:19.951  INFO 1959 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-04-27 17:09:19.957  INFO 1959 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1524820159957 with initial instances count: 1
+2018-04-27 17:09:19.968  INFO 1959 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application product-service with eureka with status UP
+2018-04-27 17:09:19.972  INFO 1959 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1524820159972, current=UP, previous=STARTING]
+2018-04-27 17:09:19.979  INFO 1959 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082: registering service...
+2018-04-27 17:09:20.067  INFO 1959 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - registration status: 204
+2018-04-27 17:09:20.144  INFO 1959 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8082 (http)
+2018-04-27 17:09:20.146  INFO 1959 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2018-04-27 17:09:20.154  INFO 1959 --- [main] c.c.train.ProductServiceApplication      : Started ProductServiceApplication in 39.532 seconds (JVM running for 40.184)
+2018-04-27 17:10:18.004  INFO 1959 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-27 17:10:18.005  INFO 1959 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-27 17:10:18.536  INFO 1959 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 531 ms
+2018-04-27 17:10:19.607  INFO 1959 --- [http-nio-8082-exec-1] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-27 17:14:19.451  INFO 1959 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-27 17:35:23.298  INFO 1959 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-27 17:40:23.315  INFO 1959 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-27 17:42:39.776  INFO 1959 --- [http-nio-8082-exec-2] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-27 17:45:23.332  INFO 1959 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-27 17:50:23.346  INFO 1959 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-27 19:08:36.323  INFO 1959 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-27 19:13:36.336  INFO 1959 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-27 19:18:36.352  INFO 1959 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-27 21:34:21.041  INFO 1959 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-27 23:49:56.932  INFO 1959 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 02:32:12.292  INFO 1959 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 04:47:55.985  INFO 1959 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 07:30:11.468  INFO 1959 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 09:06:06.593  INFO 1959 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 09:10:54.179  INFO 1959 --- [Thread-7] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e9803c2: startup date [Fri Apr 27 17:09:02 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7aaca91a
+2018-04-28 09:10:54.188  INFO 1959 --- [Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application product-service with eureka with status DOWN
+2018-04-28 09:10:54.188  WARN 1959 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1524877854188, current=DOWN, previous=UP]
+2018-04-28 09:10:54.189  INFO 1959 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082: registering service...
+2018-04-28 09:10:54.202  INFO 1959 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - registration status: 204
+2018-04-28 09:10:54.204  INFO 1959 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-04-28 09:10:54.208  INFO 1959 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-28 09:10:54.209  INFO 1959 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-04-28 09:10:54.213  INFO 1959 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-04-28 09:10:54.218  INFO 1959 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2018-04-28 09:10:54.232  INFO 1959 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - deregister  status: 200
+2018-04-28 09:10:54.265  INFO 1959 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-04-28 09:10:54.271  INFO 1959 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-28 16:20:21.830 ERROR 3386 --- [main] o.s.b.l.LoggingApplicationListener       : Cannot set level: hibernate=INFO for 'org'
+2018-04-28 16:20:21.848  INFO 3386 --- [main] c.c.train.ProductServiceApplication      : No active profile set, falling back to default profiles: default
+2018-04-28 16:20:21.869  INFO 3386 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c532cd8: startup date [Sat Apr 28 16:20:21 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3e58a80e
+2018-04-28 16:20:23.059  INFO 3386 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2db613b2-b125-3bc7-b0bf-fa3382151c57
+2018-04-28 16:20:23.088  INFO 3386 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-28 16:20:23.264  INFO 3386 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c747b511] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-28 16:20:23.313  INFO 3386 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e361b80e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-28 16:20:23.620  INFO 3386 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8082 (http)
+2018-04-28 16:20:23.645  INFO 3386 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-28 16:20:23.646  INFO 3386 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-28 16:20:23.746  INFO 3386 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-28 16:20:23.747  INFO 3386 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1878 ms
+2018-04-28 16:20:23.867  INFO 3386 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-28 16:20:23.873  INFO 3386 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-28 16:20:23.874  INFO 3386 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-28 16:20:23.874  INFO 3386 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-28 16:20:23.874  INFO 3386 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-28 16:20:30.509  INFO 3386 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-28 16:20:30.526  INFO 3386 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-28 16:20:30.645  INFO 3386 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-04-28 16:20:30.647  INFO 3386 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-04-28 16:20:30.649  INFO 3386 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-04-28 16:20:30.713  INFO 3386 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-28 16:20:30.956  INFO 3386 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-28 16:20:31.452  INFO 3386 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-28 16:20:31.916  WARN 3386 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-04-28 16:20:31.916  INFO 3386 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-28 16:20:31.922  WARN 3386 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-04-28 16:20:31.922  INFO 3386 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-28 16:20:32.307  INFO 3386 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c532cd8: startup date [Sat Apr 28 16:20:21 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3e58a80e
+2018-04-28 16:20:32.391  INFO 3386 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[],methods=[GET]}" onto public java.util.List<com.cifnews.train.dto.ProductDto> com.cifnews.train.controller.ProductController.getAllProducts(org.springframework.data.domain.Pageable)
+2018-04-28 16:20:32.392  INFO 3386 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{id}],methods=[GET]}" onto public com.cifnews.train.dto.ProductDto com.cifnews.train.controller.ProductController.getProductById(java.lang.Integer) throws java.lang.Exception
+2018-04-28 16:20:32.392  INFO 3386 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reduce/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity com.cifnews.train.controller.ProductController.decreaseInventoryById(java.lang.Integer,java.lang.Integer) throws java.lang.Exception
+2018-04-28 16:20:32.395  INFO 3386 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-28 16:20:32.396  INFO 3386 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-28 16:20:32.425  INFO 3386 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Mapped URL path [/products] onto handler '/products'
+2018-04-28 16:20:32.439  INFO 3386 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 16:20:32.439  INFO 3386 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 16:20:32.475  INFO 3386 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in exceptionAdvice
+2018-04-28 16:20:32.536  INFO 3386 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 16:20:33.103  WARN 3386 --- [main] arterDeprecationWarningAutoConfiguration : spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2018-04-28 16:20:33.149  INFO 3386 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-28 16:20:33.158  INFO 3386 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-04-28 16:20:33.159  INFO 3386 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-04-28 16:20:33.159  INFO 3386 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-04-28 16:20:33.162  INFO 3386 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-04-28 16:20:33.179  INFO 3386 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-04-28 16:20:33.189  INFO 3386 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=2c532cd8,type=ConfigurationPropertiesRebinder]
+2018-04-28 16:20:33.206  INFO 3386 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-04-28 16:20:33.214  INFO 3386 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-04-28 16:20:33.272  INFO 3386 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-04-28 16:20:33.339  INFO 3386 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-04-28 16:20:33.339  INFO 3386 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-04-28 16:20:33.462  INFO 3386 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-04-28 16:20:33.462  INFO 3386 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-04-28 16:20:33.625  INFO 3386 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 16:20:33.641  INFO 3386 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-04-28 16:20:33.641  INFO 3386 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-04-28 16:20:33.641  INFO 3386 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-04-28 16:20:33.642  INFO 3386 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-04-28 16:20:33.642  INFO 3386 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-04-28 16:20:33.642  INFO 3386 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-04-28 16:20:33.642  INFO 3386 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-04-28 16:20:33.904  INFO 3386 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-04-28 16:20:33.905  INFO 3386 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-04-28 16:20:33.907  INFO 3386 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-04-28 16:20:33.910  INFO 3386 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1524903633910 with initial instances count: 1
+2018-04-28 16:20:33.919  INFO 3386 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application product-service with eureka with status UP
+2018-04-28 16:20:33.919  INFO 3386 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1524903633919, current=UP, previous=STARTING]
+2018-04-28 16:20:33.921  INFO 3386 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082: registering service...
+2018-04-28 16:20:33.970  INFO 3386 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - registration status: 204
+2018-04-28 16:20:33.984  INFO 3386 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8082 (http)
+2018-04-28 16:20:33.985  INFO 3386 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2018-04-28 16:20:33.991  INFO 3386 --- [main] c.c.train.ProductServiceApplication      : Started ProductServiceApplication in 33.374 seconds (JVM running for 34.043)
+2018-04-28 16:25:33.663  INFO 3386 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 16:30:33.683  INFO 3386 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 16:35:33.700  INFO 3386 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 16:40:33.718  INFO 3386 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 16:45:33.737  INFO 3386 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 16:50:33.034  INFO 3386 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-28 16:50:33.036  INFO 3386 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-28 16:50:33.105  INFO 3386 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 68 ms
+2018-04-28 16:50:33.151  WARN 3386 --- [http-nio-8082-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Failed to invoke @ExceptionHandler method: public java.util.Map com.cifnews.train.controller.exception.ExceptionAdvice.errorHandler(java.lang.Exception)
+
+java.lang.NullPointerException: null
+	at com.cifnews.train.controller.exception.ExceptionAdvice.errorHandler(ExceptionAdvice.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:385)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:136)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:76)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1222)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1034)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:664)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-04-28 16:50:33.153  WARN 3386 --- [http-nio-8082-exec-1] o.s.web.servlet.PageNotFound             : Request method 'PUT' not supported
+2018-04-28 16:50:33.755  INFO 3386 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 16:51:16.452  INFO 3386 --- [http-nio-8082-exec-6] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-04-28 16:52:31.630  WARN 3386 --- [http-nio-8082-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Failed to invoke @ExceptionHandler method: public java.util.Map com.cifnews.train.controller.exception.ExceptionAdvice.errorHandler(java.lang.Exception)
+
+java.lang.NullPointerException: null
+	at com.cifnews.train.controller.exception.ExceptionAdvice.errorHandler(ExceptionAdvice.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:385)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:136)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:76)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1222)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1034)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-04-28 16:52:31.631  WARN 3386 --- [http-nio-8082-exec-2] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2018-04-28 16:52:37.898  WARN 3386 --- [http-nio-8082-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Failed to invoke @ExceptionHandler method: public java.util.Map com.cifnews.train.controller.exception.ExceptionAdvice.errorHandler(java.lang.Exception)
+
+java.lang.NullPointerException: null
+	at com.cifnews.train.controller.exception.ExceptionAdvice.errorHandler(ExceptionAdvice.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:385)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:136)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:76)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1222)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1034)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:664)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-04-28 16:52:37.899  WARN 3386 --- [http-nio-8082-exec-3] o.s.web.servlet.PageNotFound             : Request method 'PUT' not supported
+2018-04-28 16:53:10.398  INFO 3386 --- [Thread-7] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c532cd8: startup date [Sat Apr 28 16:20:21 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3e58a80e
+2018-04-28 16:53:10.401  INFO 3386 --- [Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application product-service with eureka with status DOWN
+2018-04-28 16:53:10.402  WARN 3386 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1524905590402, current=DOWN, previous=UP]
+2018-04-28 16:53:10.403  INFO 3386 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082: registering service...
+2018-04-28 16:53:10.404  INFO 3386 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-04-28 16:53:10.406  INFO 3386 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-28 16:53:10.406  INFO 3386 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-04-28 16:53:10.408  INFO 3386 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-04-28 16:53:10.408  INFO 3386 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2018-04-28 16:53:10.412  INFO 3386 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - registration status: 204
+2018-04-28 16:53:10.426  INFO 3386 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - deregister  status: 200
+2018-04-28 16:53:10.438  INFO 3386 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-04-28 16:53:10.440  INFO 3386 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-28 16:54:46.436 ERROR 3442 --- [main] o.s.b.l.LoggingApplicationListener       : Cannot set level: hibernate=INFO for 'org'
+2018-04-28 16:54:46.470  INFO 3442 --- [main] c.c.train.ProductServiceApplication      : No active profile set, falling back to default profiles: default
+2018-04-28 16:54:46.494  INFO 3442 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4cdd2c73: startup date [Sat Apr 28 16:54:46 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7aaca91a
+2018-04-28 16:54:47.938  INFO 3442 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2db613b2-b125-3bc7-b0bf-fa3382151c57
+2018-04-28 16:54:47.982  INFO 3442 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-28 16:54:48.217  INFO 3442 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dcb64ab4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-28 16:54:48.359  INFO 3442 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f8d04db1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-28 16:54:49.114  INFO 3442 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8082 (http)
+2018-04-28 16:54:49.244  INFO 3442 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-28 16:54:49.245  INFO 3442 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-28 16:54:49.601  INFO 3442 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-28 16:54:49.602  INFO 3442 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3108 ms
+2018-04-28 16:54:49.884  INFO 3442 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-28 16:54:49.892  INFO 3442 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-28 16:54:49.893  INFO 3442 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-28 16:54:49.894  INFO 3442 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-28 16:54:49.894  INFO 3442 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-28 16:54:57.312  INFO 3442 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-28 16:54:57.356  INFO 3442 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-28 16:54:57.613  INFO 3442 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-04-28 16:54:57.617  INFO 3442 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-04-28 16:54:57.620  INFO 3442 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-04-28 16:54:57.745  INFO 3442 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-28 16:54:58.102  INFO 3442 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-28 16:54:59.189  INFO 3442 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-28 16:55:00.146  WARN 3442 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-04-28 16:55:00.146  INFO 3442 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-28 16:55:00.158  WARN 3442 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-04-28 16:55:00.158  INFO 3442 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-28 16:55:00.656  INFO 3442 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4cdd2c73: startup date [Sat Apr 28 16:54:46 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7aaca91a
+2018-04-28 16:55:00.807  INFO 3442 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[],methods=[GET]}" onto public java.util.List<com.cifnews.train.dto.ProductDto> com.cifnews.train.controller.ProductController.getAllProducts(org.springframework.data.domain.Pageable)
+2018-04-28 16:55:00.808  INFO 3442 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{id}],methods=[GET]}" onto public com.cifnews.train.dto.ProductDto com.cifnews.train.controller.ProductController.getProductById(java.lang.Integer) throws java.lang.Exception
+2018-04-28 16:55:00.809  INFO 3442 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reduce/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity com.cifnews.train.controller.ProductController.decreaseInventoryById(java.lang.Integer,java.lang.Integer) throws java.lang.Exception
+2018-04-28 16:55:00.813  INFO 3442 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-28 16:55:00.814  INFO 3442 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-28 16:55:00.856  INFO 3442 --- [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Mapped URL path [/products] onto handler '/products'
+2018-04-28 16:55:00.879  INFO 3442 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 16:55:00.880  INFO 3442 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 16:55:00.936  INFO 3442 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in exceptionAdvice
+2018-04-28 16:55:01.018  INFO 3442 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 16:55:02.321  WARN 3442 --- [main] arterDeprecationWarningAutoConfiguration : spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2018-04-28 16:55:02.511  INFO 3442 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-28 16:55:02.527  INFO 3442 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-04-28 16:55:02.528  INFO 3442 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-04-28 16:55:02.529  INFO 3442 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-04-28 16:55:02.534  INFO 3442 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-04-28 16:55:02.552  INFO 3442 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-04-28 16:55:02.585  INFO 3442 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=4cdd2c73,type=ConfigurationPropertiesRebinder]
+2018-04-28 16:55:02.632  INFO 3442 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-04-28 16:55:02.651  INFO 3442 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-04-28 16:55:02.747  INFO 3442 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-04-28 16:55:02.969  INFO 3442 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-04-28 16:55:02.970  INFO 3442 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-04-28 16:55:03.300  INFO 3442 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-04-28 16:55:03.301  INFO 3442 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-04-28 16:55:03.747  INFO 3442 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 16:55:03.790  INFO 3442 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-04-28 16:55:03.790  INFO 3442 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-04-28 16:55:03.790  INFO 3442 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-04-28 16:55:03.790  INFO 3442 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-04-28 16:55:03.790  INFO 3442 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-04-28 16:55:03.790  INFO 3442 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-04-28 16:55:03.790  INFO 3442 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-04-28 16:55:04.154  INFO 3442 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-04-28 16:55:04.155  INFO 3442 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-04-28 16:55:04.160  INFO 3442 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-04-28 16:55:04.165  INFO 3442 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1524905704164 with initial instances count: 1
+2018-04-28 16:55:04.177  INFO 3442 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application product-service with eureka with status UP
+2018-04-28 16:55:04.178  INFO 3442 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1524905704178, current=UP, previous=STARTING]
+2018-04-28 16:55:04.181  INFO 3442 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082: registering service...
+2018-04-28 16:55:04.239  INFO 3442 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - registration status: 204
+2018-04-28 16:55:04.286  INFO 3442 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8082 (http)
+2018-04-28 16:55:04.287  INFO 3442 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2018-04-28 16:55:04.298  INFO 3442 --- [main] c.c.train.ProductServiceApplication      : Started ProductServiceApplication in 40.156 seconds (JVM running for 41.002)
+2018-04-28 16:56:46.490  INFO 3442 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-28 16:56:46.491  INFO 3442 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-28 16:56:46.524  INFO 3442 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+2018-04-28 16:56:46.594  WARN 3442 --- [http-nio-8082-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Failed to invoke @ExceptionHandler method: public java.util.Map com.cifnews.train.controller.exception.ExceptionAdvice.errorHandler(java.lang.Exception)
+
+java.lang.NullPointerException: null
+	at com.cifnews.train.controller.exception.ExceptionAdvice.errorHandler(ExceptionAdvice.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:385)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:136)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:76)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1222)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1034)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:664)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-04-28 16:56:46.595  WARN 3442 --- [http-nio-8082-exec-1] o.s.web.servlet.PageNotFound             : Request method 'PUT' not supported
+2018-04-28 16:57:11.577  WARN 3442 --- [http-nio-8082-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Failed to invoke @ExceptionHandler method: public java.util.Map com.cifnews.train.controller.exception.ExceptionAdvice.errorHandler(java.lang.Exception)
+
+java.lang.NullPointerException: null
+	at com.cifnews.train.controller.exception.ExceptionAdvice.errorHandler(ExceptionAdvice.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:385)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:136)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:76)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1222)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1034)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:664)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-04-28 16:57:11.579  WARN 3442 --- [http-nio-8082-exec-2] o.s.web.servlet.PageNotFound             : Request method 'PUT' not supported
+2018-04-28 16:57:32.664  INFO 3442 --- [http-nio-8082-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-04-28 16:57:50.790  INFO 3442 --- [Thread-7] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4cdd2c73: startup date [Sat Apr 28 16:54:46 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7aaca91a
+2018-04-28 16:57:50.793  INFO 3442 --- [Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application product-service with eureka with status DOWN
+2018-04-28 16:57:50.793  WARN 3442 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1524905870793, current=DOWN, previous=UP]
+2018-04-28 16:57:50.793  INFO 3442 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082: registering service...
+2018-04-28 16:57:50.795  INFO 3442 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-04-28 16:57:50.797  INFO 3442 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-28 16:57:50.801  INFO 3442 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-04-28 16:57:50.803  INFO 3442 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-04-28 16:57:50.804  INFO 3442 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2018-04-28 16:57:50.809  INFO 3442 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - registration status: 204
+2018-04-28 16:57:50.825  INFO 3442 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - deregister  status: 200
+2018-04-28 16:57:50.840  INFO 3442 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-04-28 16:57:50.844  INFO 3442 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-28 16:58:45.711 ERROR 3448 --- [main] o.s.b.l.LoggingApplicationListener       : Cannot set level: hibernate=INFO for 'org'
+2018-04-28 16:58:45.731  INFO 3448 --- [main] c.c.train.ProductServiceApplication      : No active profile set, falling back to default profiles: default
+2018-04-28 16:58:45.756  INFO 3448 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@aeab9a1: startup date [Sat Apr 28 16:58:45 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@59474f18
+2018-04-28 16:58:48.054  INFO 3448 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=35942389-ca5d-30fe-a248-777e4e4fa6e7
+2018-04-28 16:58:48.249  INFO 3448 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-28 16:58:48.707  INFO 3448 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$71ff56da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-28 16:58:48.875  INFO 3448 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8e1959d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-28 16:58:49.952  INFO 3448 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8082 (http)
+2018-04-28 16:58:50.030  INFO 3448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-28 16:58:50.032  INFO 3448 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-28 16:58:50.341  INFO 3448 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-28 16:58:50.345  INFO 3448 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4589 ms
+2018-04-28 16:58:50.614  INFO 3448 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-28 16:58:50.619  INFO 3448 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-28 16:58:50.620  INFO 3448 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-28 16:58:50.620  INFO 3448 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-28 16:58:50.620  INFO 3448 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-28 16:58:57.833  INFO 3448 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-28 16:58:57.879  INFO 3448 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-28 16:58:58.044  INFO 3448 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-04-28 16:58:58.047  INFO 3448 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-04-28 16:58:58.053  INFO 3448 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-04-28 16:58:58.150  INFO 3448 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-28 16:58:58.462  INFO 3448 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-28 16:58:59.325  INFO 3448 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-28 16:59:00.099  WARN 3448 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-04-28 16:59:00.099  INFO 3448 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-28 16:59:00.111  WARN 3448 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-04-28 16:59:00.112  INFO 3448 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-28 16:59:00.610  INFO 3448 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@aeab9a1: startup date [Sat Apr 28 16:58:45 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@59474f18
+2018-04-28 16:59:00.760  INFO 3448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public java.util.List<com.cifnews.train.dto.ProductDto> com.cifnews.train.controller.ProductController.getAllProducts(org.springframework.data.domain.Pageable)
+2018-04-28 16:59:00.761  INFO 3448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[GET]}" onto public com.cifnews.train.dto.ProductDto com.cifnews.train.controller.ProductController.getProductById(java.lang.Integer) throws java.lang.Exception
+2018-04-28 16:59:00.762  INFO 3448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/reduce/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity com.cifnews.train.controller.ProductController.decreaseInventoryById(java.lang.Integer,java.lang.Integer) throws java.lang.Exception
+2018-04-28 16:59:00.765  INFO 3448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-28 16:59:00.766  INFO 3448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-28 16:59:00.844  INFO 3448 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 16:59:00.845  INFO 3448 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 16:59:00.876  INFO 3448 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in exceptionAdvice
+2018-04-28 16:59:00.951  INFO 3448 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 16:59:02.065  WARN 3448 --- [main] arterDeprecationWarningAutoConfiguration : spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2018-04-28 16:59:02.155  INFO 3448 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-28 16:59:02.169  INFO 3448 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-04-28 16:59:02.170  INFO 3448 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-04-28 16:59:02.171  INFO 3448 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-04-28 16:59:02.174  INFO 3448 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-04-28 16:59:02.193  INFO 3448 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-04-28 16:59:02.212  INFO 3448 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=aeab9a1,type=ConfigurationPropertiesRebinder]
+2018-04-28 16:59:02.235  INFO 3448 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-04-28 16:59:02.251  INFO 3448 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-04-28 16:59:02.390  INFO 3448 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-04-28 16:59:02.578  INFO 3448 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-04-28 16:59:02.578  INFO 3448 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-04-28 16:59:02.885  INFO 3448 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-04-28 16:59:02.886  INFO 3448 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-04-28 16:59:03.190  INFO 3448 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 16:59:03.229  INFO 3448 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-04-28 16:59:03.229  INFO 3448 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-04-28 16:59:03.229  INFO 3448 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-04-28 16:59:03.229  INFO 3448 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-04-28 16:59:03.229  INFO 3448 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-04-28 16:59:03.229  INFO 3448 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-04-28 16:59:03.229  INFO 3448 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-04-28 16:59:03.587  INFO 3448 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-04-28 16:59:03.596  INFO 3448 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-04-28 16:59:03.639  INFO 3448 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-04-28 16:59:03.646  INFO 3448 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1524905943645 with initial instances count: 1
+2018-04-28 16:59:03.658  INFO 3448 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application product-service with eureka with status UP
+2018-04-28 16:59:03.659  INFO 3448 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1524905943659, current=UP, previous=STARTING]
+2018-04-28 16:59:03.661  INFO 3448 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082: registering service...
+2018-04-28 16:59:03.732  INFO 3448 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - registration status: 204
+2018-04-28 16:59:03.992  INFO 3448 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8082 (http)
+2018-04-28 16:59:04.007  INFO 3448 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2018-04-28 16:59:04.014  INFO 3448 --- [main] c.c.train.ProductServiceApplication      : Started ProductServiceApplication in 40.315 seconds (JVM running for 41.176)
+2018-04-28 16:59:18.439  INFO 3448 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-28 16:59:18.440  INFO 3448 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-28 16:59:18.464  INFO 3448 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-04-28 16:59:45.118  INFO 3448 --- [http-nio-8082-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-04-28 16:59:56.923  INFO 3448 --- [http-nio-8082-exec-4] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 1
+2018-04-28 17:01:03.811  INFO 3448 --- [http-nio-8082-exec-6] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 17:04:03.249  INFO 3448 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 17:09:03.267  INFO 3448 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 17:23:17.802  INFO 3448 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 17:34:58.388  INFO 3448 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 17:39:58.408  INFO 3448 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 17:44:58.428  INFO 3448 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 17:49:58.444  INFO 3448 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 17:51:18.247  WARN 3448 --- [http-nio-8082-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Failed to invoke @ExceptionHandler method: public java.util.Map com.cifnews.train.controller.exception.ExceptionAdvice.errorHandler(java.lang.Exception)
+
+java.lang.NullPointerException: null
+	at com.cifnews.train.controller.exception.ExceptionAdvice.errorHandler(ExceptionAdvice.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:385)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:136)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:76)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1222)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1034)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:664)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-04-28 17:51:18.253  WARN 3448 --- [http-nio-8082-exec-8] o.s.web.servlet.PageNotFound             : Request method 'PUT' not supported
+2018-04-28 17:54:39.292  INFO 3448 --- [http-nio-8082-exec-1] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 17:54:52.349  INFO 3448 --- [http-nio-8082-exec-4] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 17:54:53.803  INFO 3448 --- [http-nio-8082-exec-6] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 17:54:54.808  INFO 3448 --- [http-nio-8082-exec-8] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 17:54:55.781  INFO 3448 --- [http-nio-8082-exec-10] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 17:54:56.547  INFO 3448 --- [http-nio-8082-exec-2] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 17:54:57.295  INFO 3448 --- [http-nio-8082-exec-4] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 17:54:57.956  INFO 3448 --- [http-nio-8082-exec-6] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 17:54:58.463  INFO 3448 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 17:54:58.550  INFO 3448 --- [http-nio-8082-exec-8] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 17:54:58.960  INFO 3448 --- [http-nio-8082-exec-10] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 17:54:59.408  INFO 3448 --- [http-nio-8082-exec-2] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 17:54:59.839  INFO 3448 --- [http-nio-8082-exec-4] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 17:59:58.479  INFO 3448 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 18:04:58.497  INFO 3448 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 18:09:58.518  INFO 3448 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 18:11:59.663  INFO 3448 --- [http-nio-8082-exec-7] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:12:03.024  INFO 3448 --- [http-nio-8082-exec-9] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:12:04.401  INFO 3448 --- [http-nio-8082-exec-1] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:14:58.536  INFO 3448 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-04-28 18:15:22.767  INFO 3448 --- [http-nio-8082-exec-4] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:15:23.643  INFO 3448 --- [http-nio-8082-exec-6] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:15:24.390  INFO 3448 --- [http-nio-8082-exec-8] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:15:25.110  INFO 3448 --- [http-nio-8082-exec-10] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:15:25.442  INFO 3448 --- [http-nio-8082-exec-2] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:15:25.888  INFO 3448 --- [http-nio-8082-exec-4] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:15:26.582  INFO 3448 --- [http-nio-8082-exec-6] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:15:27.006  INFO 3448 --- [http-nio-8082-exec-8] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:15:27.433  INFO 3448 --- [http-nio-8082-exec-10] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:15:27.733  INFO 3448 --- [http-nio-8082-exec-2] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:15:28.543  INFO 3448 --- [http-nio-8082-exec-4] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:15:29.154  INFO 3448 --- [http-nio-8082-exec-6] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:15:29.695  INFO 3448 --- [http-nio-8082-exec-8] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:15:30.038  INFO 3448 --- [http-nio-8082-exec-10] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-04-28 18:15:48.716  INFO 3448 --- [Thread-7] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@aeab9a1: startup date [Sat Apr 28 16:58:45 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@59474f18
+2018-04-28 18:15:48.718  INFO 3448 --- [Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application product-service with eureka with status DOWN
+2018-04-28 18:15:48.719  WARN 3448 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1524910548719, current=DOWN, previous=UP]
+2018-04-28 18:15:48.719  INFO 3448 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082: registering service...
+2018-04-28 18:15:48.727  INFO 3448 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - registration status: 204
+2018-04-28 18:15:48.728  INFO 3448 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-04-28 18:15:48.729  INFO 3448 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-28 18:15:48.730  INFO 3448 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-04-28 18:15:48.731  INFO 3448 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-04-28 18:15:48.732  INFO 3448 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2018-04-28 18:15:48.739  INFO 3448 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - deregister  status: 200
+2018-04-28 18:15:48.752  INFO 3448 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-04-28 18:15:48.756  INFO 3448 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
