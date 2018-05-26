@@ -811,3 +811,158 @@ java.lang.NullPointerException: null
 2018-04-28 18:15:48.739  INFO 3448 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - deregister  status: 200
 2018-04-28 18:15:48.752  INFO 3448 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
 2018-04-28 18:15:48.756  INFO 3448 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-11 14:41:15.159 ERROR 7281 --- [main] o.s.b.l.LoggingApplicationListener       : Cannot set level: hibernate=INFO for 'org'
+2018-05-11 14:41:15.205  INFO 7281 --- [main] c.c.train.ProductServiceApplication      : No active profile set, falling back to default profiles: default
+2018-05-11 14:41:15.242  INFO 7281 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c1bd0be: startup date [Fri May 11 14:41:15 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@62379589
+2018-05-11 14:41:16.889  INFO 7281 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=35942389-ca5d-30fe-a248-777e4e4fa6e7
+2018-05-11 14:41:16.947  INFO 7281 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-11 14:41:17.357  INFO 7281 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4aad6d86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-11 14:41:17.449  INFO 7281 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$66c77083] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-11 14:41:17.875  INFO 7281 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8082 (http)
+2018-05-11 14:41:17.936  INFO 7281 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-11 14:41:17.936  INFO 7281 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-11 14:41:18.184  INFO 7281 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-11 14:41:18.185  INFO 7281 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2943 ms
+2018-05-11 14:41:18.421  INFO 7281 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-11 14:41:18.429  INFO 7281 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-11 14:41:18.430  INFO 7281 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-11 14:41:18.430  INFO 7281 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-11 14:41:18.430  INFO 7281 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-11 14:41:20.734  INFO 7281 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-11 14:41:20.778  INFO 7281 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-11 14:41:20.962  INFO 7281 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-05-11 14:41:20.967  INFO 7281 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-05-11 14:41:20.971  INFO 7281 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-05-11 14:41:21.070  INFO 7281 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-05-11 14:41:21.316  INFO 7281 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-11 14:41:22.465  INFO 7281 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-11 14:41:23.667  WARN 7281 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-11 14:41:23.667  INFO 7281 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-05-11 14:41:23.677  WARN 7281 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-11 14:41:23.678  INFO 7281 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-05-11 14:41:24.033  INFO 7281 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c1bd0be: startup date [Fri May 11 14:41:15 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@62379589
+2018-05-11 14:41:24.222  INFO 7281 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public java.util.List<com.cifnews.train.dto.ProductDto> com.cifnews.train.controller.ProductController.getAllProducts(org.springframework.data.domain.Pageable)
+2018-05-11 14:41:24.223  INFO 7281 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[GET]}" onto public com.cifnews.train.dto.ProductDto com.cifnews.train.controller.ProductController.getProductById(java.lang.Integer) throws java.lang.Exception
+2018-05-11 14:41:24.224  INFO 7281 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/reduce/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity com.cifnews.train.controller.ProductController.decreaseInventoryById(java.lang.Integer,java.lang.Integer) throws java.lang.Exception
+2018-05-11 14:41:24.228  INFO 7281 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-11 14:41:24.228  INFO 7281 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-11 14:41:24.307  INFO 7281 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-11 14:41:24.307  INFO 7281 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-11 14:41:24.336  INFO 7281 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in exceptionAdvice
+2018-05-11 14:41:24.375  INFO 7281 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-11 14:41:25.718  WARN 7281 --- [main] arterDeprecationWarningAutoConfiguration : spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2018-05-11 14:41:25.807  INFO 7281 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-11 14:41:25.823  INFO 7281 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-05-11 14:41:25.824  INFO 7281 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-05-11 14:41:25.825  INFO 7281 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-05-11 14:41:25.829  INFO 7281 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-05-11 14:41:25.850  INFO 7281 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-05-11 14:41:25.867  INFO 7281 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=c1bd0be,type=ConfigurationPropertiesRebinder]
+2018-05-11 14:41:25.889  INFO 7281 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-05-11 14:41:25.904  INFO 7281 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-05-11 14:41:26.007  INFO 7281 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-05-11 14:41:26.131  INFO 7281 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-11 14:41:26.132  INFO 7281 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-11 14:41:26.393  INFO 7281 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-11 14:41:26.393  INFO 7281 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-11 14:41:27.236  INFO 7281 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 14:41:27.287  INFO 7281 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-05-11 14:41:27.289  INFO 7281 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-05-11 14:41:27.289  INFO 7281 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-05-11 14:41:27.289  INFO 7281 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-05-11 14:41:27.289  INFO 7281 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-05-11 14:41:27.289  INFO 7281 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-05-11 14:41:27.289  INFO 7281 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-05-11 14:41:27.689  INFO 7281 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-05-11 14:41:27.693  INFO 7281 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-05-11 14:41:27.705  INFO 7281 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-05-11 14:41:27.721  INFO 7281 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1526020887720 with initial instances count: 2
+2018-05-11 14:41:27.739  INFO 7281 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application product-service with eureka with status UP
+2018-05-11 14:41:27.752  INFO 7281 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1526020887752, current=UP, previous=STARTING]
+2018-05-11 14:41:27.758  INFO 7281 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082: registering service...
+2018-05-11 14:41:27.830  INFO 7281 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - registration status: 204
+2018-05-11 14:41:27.995  INFO 7281 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8082 (http)
+2018-05-11 14:41:27.996  INFO 7281 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2018-05-11 14:41:28.004  INFO 7281 --- [main] c.c.train.ProductServiceApplication      : Started ProductServiceApplication in 17.218 seconds (JVM running for 18.274)
+2018-05-11 14:44:45.169  INFO 7281 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-11 14:44:45.169  INFO 7281 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-11 14:44:45.215  INFO 7281 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 46 ms
+2018-05-11 14:44:46.540  INFO 7281 --- [http-nio-8082-exec-3] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-05-11 14:44:52.371  INFO 7281 --- [http-nio-8082-exec-6] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-05-11 14:44:53.484  INFO 7281 --- [http-nio-8082-exec-8] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-05-11 14:45:23.872  INFO 7281 --- [http-nio-8082-exec-1] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-05-11 14:46:27.312  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 14:51:27.328  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 14:56:27.347  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 15:01:27.367  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 15:06:27.384  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 15:16:45.792  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 15:21:45.810  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 15:26:45.829  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 15:31:45.849  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 15:36:45.879  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 15:41:45.900  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 15:46:45.915  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 15:51:45.038  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 15:56:45.056  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 16:01:45.074  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 16:06:45.091  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 16:15:19.921  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 16:20:19.948  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 16:25:19.973  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 16:30:19.992  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 16:35:20.006  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 16:40:20.024  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 16:45:20.041  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 16:50:20.059  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 16:55:20.076  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 16:59:31.618  INFO 7281 --- [http-nio-8082-exec-4] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-05-11 17:00:03.731  INFO 7281 --- [http-nio-8082-exec-6] c.c.train.controller.ProductController   : has reduced product inventory:DeadInside 10
+2018-05-11 17:00:20.093  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 17:05:20.110  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 17:10:20.130  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 17:15:20.147  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 17:30:12.872  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 17:35:34.518  INFO 7281 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - Re-registering apps/PRODUCT-SERVICE
+2018-05-11 17:35:34.531  INFO 7281 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082: registering service...
+2018-05-11 17:35:35.090  INFO 7281 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - registration status: 204
+2018-05-11 17:39:24.535  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 17:44:24.556  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 17:49:24.574  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 17:54:24.594  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 18:13:08.534  INFO 7281 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - Re-registering apps/PRODUCT-SERVICE
+2018-05-11 18:13:08.541  INFO 7281 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082: registering service...
+2018-05-11 18:13:08.622  INFO 7281 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - registration status: 204
+2018-05-11 18:15:57.164  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 18:20:57.192  INFO 7281 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-05-11 18:25:39.213  INFO 7281 --- [Thread-7] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c1bd0be: startup date [Fri May 11 14:41:15 HKT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@62379589
+2018-05-11 18:25:39.317  INFO 7281 --- [Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application product-service with eureka with status DOWN
+2018-05-11 18:25:39.319  WARN 7281 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1526034339319, current=DOWN, previous=UP]
+2018-05-11 18:25:39.320  INFO 7281 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082: registering service...
+2018-05-11 18:25:39.395  INFO 7281 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - registration status: 204
+2018-05-11 18:25:39.500  INFO 7281 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-05-11 18:25:39.527  INFO 7281 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-05-11 18:25:39.531  INFO 7281 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-05-11 18:25:39.541  INFO 7281 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-05-11 18:25:39.545  INFO 7281 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2018-05-11 18:25:39.620  INFO 7281 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-SERVICE/product-service:8082 - deregister  status: 200
+2018-05-11 18:25:39.622  WARN 7281 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, reject the task
+
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@1d30dcc9 rejected from java.util.concurrent.ThreadPoolExecutor@190f5bb7[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 368]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2047)
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:823)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1369)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-05-11 18:25:39.694  INFO 7281 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-05-11 18:25:39.743  INFO 7281 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
