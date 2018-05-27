@@ -1,0 +1,25 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: zuul-gateway-service
+  profiles:
+    active: dev
+  cloud:
+     config:
+        discovery:
+          service-id: config-server
+          enabled: true
+        fail-fast: true
+        profile: dev
+        name: order-service
+zuul:
+  routes:
+   order-service:
+      path: /order-service/**
+      serviceId: order-service
+   ## simple way
+   product-service: /product/**
+  ignoredPatterns:
+    /order-service/orders/limit
+  sensitive-headers: Cookie,Set-Cookie,Authorization

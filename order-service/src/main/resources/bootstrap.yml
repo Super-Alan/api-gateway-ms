@@ -9,15 +9,11 @@ spring:
         fail-fast: true
         profile: dev
         name: order-service
+  profiles:
+    active: dev
 
 
-eureka:
-  instance:
-    prefer-ip-address: true
-    instance-id: ${spring.application.name}:${server.port}
-  client:
-    service-url:
-      defaultZone: http://alan:cifnews-train@service-registry:8761/eureka
+
 server:
   port: 8080
 

@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: product-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:6033/product?useUnicode=yes&characterEncoding=UTF-8
+    username: root
+    password: alan
+  jpa:
+    show-sql: true
+    properties:
+       hibernate:
+         format_sql: true
+
+eureka:
+  instance:
+    prefer-ip-address: false
+    instance-id: ${spring.application.name}:${server.port}
+  client:
+    service-url:
+      defaultZone: http://alan:cifnews-train@localhost:8761/eureka
+server:
+  port: 8082
+
+logging:
+  file: productservice.log
+  level:
+      org:
+         hibernate=INFO
+
+
+
