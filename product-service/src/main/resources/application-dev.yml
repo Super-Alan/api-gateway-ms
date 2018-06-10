@@ -3,7 +3,7 @@ spring:
     name: product-service
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:6033/product?useUnicode=yes&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/product?useUnicode=yes&characterEncoding=UTF-8
     username: root
     password: alan
   jpa:
@@ -21,6 +21,13 @@ eureka:
       defaultZone: http://alan:cifnews-train@localhost:8761/eureka
 server:
   port: 8082
+
+security:
+  oauth2:
+    resource:
+      id: product-service
+      user-info-uri: http://localhost:8999/user
+      prefer-token-info: false
 
 logging:
   file: productservice.log

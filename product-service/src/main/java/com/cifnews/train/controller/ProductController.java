@@ -11,6 +11,7 @@ import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -27,16 +28,19 @@ public class ProductController {
     private ProductService productService;
 
     @GetMapping("/products")
+    @PreAuthorize("hasAnyAuthority('query')")
     public List<ProductDto> getAllProducts(@PageableDefault(sort = {"createTime"}, direction = Sort.Direction.DESC) Pageable pageable){
         return productService.listProducts(pageable);
     }
 
     @GetMapping("/products/{id}")
+    @PreAuthorize("hasAnyAuthority('query')")
     public  ProductDto getProductById(@PathVariable Integer id) throws Exception {
         return productService.findProductById(id);
     }
 
     @PutMapping("/products/reduce/{id}")
+    @PreAuthorize("hasAnyAuthority('query')")
     public ResponseEntity decreaseInventoryById(@PathVariable Integer id,@RequestBody Integer count) throws Exception {
         //find product inventory
         ProductDto productDto = productService.findProductById(id);

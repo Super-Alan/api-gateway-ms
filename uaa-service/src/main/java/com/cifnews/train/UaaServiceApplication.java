@@ -28,37 +28,4 @@ public class UaaServiceApplication {
 		SpringApplication.run(UaaServiceApplication.class, args);
 	}
 
-    @Bean
-    FilterRegistrationBean forwardedHeaderFilter() {
-        FilterRegistrationBean filterRegBean = new FilterRegistrationBean();
-        filterRegBean.setFilter(new ForwardedHeaderFilter());
-        filterRegBean.setOrder(Ordered.HIGHEST_PRECEDENCE);
-        return filterRegBean;
-    }
-
-    @Order(ManagementServerProperties.ACCESS_OVERRIDE_ORDER)
-    @Configuration
-    protected static class LoginConfiguration extends WebSecurityConfigurerAdapter {
-
-        @Override
-        @Bean
-        public AuthenticationManager authenticationManagerBean() throws Exception {
-            return super.authenticationManagerBean();
-        }
-
-        @Override
-        protected void configure(HttpSecurity http) throws Exception {
-            http.formLogin().loginPage("/login").permitAll().and().authorizeRequests()
-                    .anyRequest().authenticated();
-        }
-
-        @Override
-        protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-            auth.inMemoryAuthentication()
-                    .withUser("user").password("alan").roles("USER")
-                    .and()
-                    .withUser("admin").password("alan").roles("ADMIN");
-
-        }
-    }
 }
