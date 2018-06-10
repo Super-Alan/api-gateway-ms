@@ -1,10 +1,16 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/order?useUnicode=yes&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:6033/order?useUnicode=yes&characterEncoding=UTF-8
     username: root
     password: alan
 
+security:
+  oauth2:
+    resource:
+      id: order-service
+      user-info-uri: http://localhost:8999/user
+      prefer-token-info: false
 eureka:
   instance:
     prefer-ip-address: false

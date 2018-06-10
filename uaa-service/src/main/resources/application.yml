@@ -8,12 +8,14 @@ spring:
     name: uaa-service
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ms_demo?useUnicode=yes&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:6033/uaa?useUnicode=yes&characterEncoding=UTF-8
     username: root
     password: alan
   jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
     hibernate:
       ddl-auto: create-drop
+    dialect: org.hibernate.dialect.MySQL5Dialec
     show-sql: true
   redis:
     host: localhost

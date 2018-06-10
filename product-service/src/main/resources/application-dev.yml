@@ -3,7 +3,7 @@ spring:
     name: product-service
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/product?useUnicode=yes&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:6033/product?useUnicode=yes&characterEncoding=UTF-8
     username: root
     password: alan
   jpa:
